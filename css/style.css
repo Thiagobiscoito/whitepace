@@ -38,7 +38,7 @@ p {
     transition: 0.1s;
 }
 
-.btn.animate-btn{
+.btn.animate-btn {
     animation: animate-outline 1s ease-out infinite;
 }
 
@@ -47,10 +47,11 @@ p {
 }
 
 @keyframes animate-outline {
-    from{
+    from {
         outline: 0px solid #4f9bf98a;
     }
-    to{
+
+    to {
         outline: 15px solid #4f9bf900;
     }
 }
@@ -81,7 +82,7 @@ nav ul a {
     display: block;
 }
 
-nav ul a:not(.btn):after{
+nav ul a:not(.btn):after {
     content: "";
     background-color: #4f9cf9;
     height: 3px;
@@ -91,7 +92,7 @@ nav ul a:not(.btn):after{
     transition: 0.3s;
 }
 
-nav ul a:hover::after{
+nav ul a:hover::after {
     width: 100%;
 }
 
@@ -106,7 +107,7 @@ nav ul a:hover::after{
     padding: 0 90px;
 }
 
-.banner .baner-text h1{
+.banner .baner-text h1 {
     font-size: 96px;
     color: white;
 }
@@ -117,5 +118,35 @@ nav ul a:hover::after{
     font-weight: lighter;
     margin: 18px 0;
 }
+
+/* FACA MAIS */
+
+.faca-mais .container{
+    display: flex;
+    align-items: center;
+}
+
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+}
+
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.faca-mais .faca-mais-text p{
+    margin: 5px 0 10px 0;
+}
+
+.faca-mais .faca-mais-img{
+    width: 50%;
+}
+
+.faca-mais .faca-mais-img img{
+    width: 100%;
+}
+
+
 
 
