@@ -303,6 +303,60 @@ nav .close-icon{
     border-radius: 10px;
 }
 
+/* FIM DOS ESTILOS DA PAGINA SOBRE */
+
+/* ESTILOS DA PAGINA SERVIÇOS */
+.servicos h3{
+    text-align: center;
+}
+
+.servicos .container > p{
+    text-align: center;
+}
+
+.servicos .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.servicos .row-card-item{
+    background-color: #d3e6fd;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.servicos .row-card-item:hover{
+    background-color: #4f9cf9;
+}
+
+.servicos .row-card-item:hover p{
+    color: white;
+}
+
+.servicos .row-card-item p.nome-servico{
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.servicos .row-card-item p.descricao-servico{
+    transition: 0.3s;
+}
+
+.servicos .row-card-item img{
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    width: 75px;
+    padding: 9px;
+}
+
+/* FIM DOS ESTILOS DA PAGINA SERVIÇOS */
+
 
 /* RESPONSIVIDADE DO MENU-MOBILE */
 
