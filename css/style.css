@@ -29,7 +29,7 @@ h3{
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 40px 5%;
 }
 
 /* ESTILIZAÇÃO DOS BOTOES */
@@ -275,6 +275,34 @@ nav .close-icon{
     margin-top: 10px;
     color: white;
 }
+
+/* ESTILOS DA PAGINA SOBRE */
+
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 40px;
+}
+
+.sobre .sobre-text p{
+    margin: 18px 0;
+    color: #000000a6;
+}
+
+.sobre .sobre-img{
+    width: 50%;
+}
+
+.sobre .sobre-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 /* RESPONSIVIDADE DO MENU-MOBILE */
 
