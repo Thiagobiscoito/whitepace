@@ -32,6 +32,7 @@ h3{
     padding: 0 5%;
 }
 
+/* ESTILIZAÇÃO DOS BOTOES */
 .btn {
     background-color: #4f9cf9;
     color: white;
@@ -60,12 +61,14 @@ h3{
     }
 }
 
+/* ESTILIZAÇÃO DO HEADER */
 header {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/* ESTILIZAÇÃO DO NAVBAR */
 nav {
     display: flex;
     align-items: center;
@@ -98,6 +101,22 @@ nav ul a:not(.btn):after {
 
 nav ul a:hover::after {
     width: 100%;
+}
+
+/* BOTÃO DO MENU-MOBILE */
+
+nav .menu-icon{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+
+nav .close-icon{
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    color: white;
 }
 
 .banner {
@@ -255,4 +274,41 @@ nav ul a:hover::after {
 .footer p{
     margin-top: 10px;
     color: white;
+}
+
+/* RESPONSIVIDADE DO MENU-MOBILE */
+
+@media(max-width: 830px){
+    nav .menu-icon{
+        display: block;
+    }
+    .ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #184b88;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        clip-path: circle(0% at 100% 0);
+        transition: 0.7s;
+    }
+
+    .ul.open{
+        clip-path: circle(141.4% at 100% 0);
+    }
+    .ul a{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    nav .close-icon{
+        display: block;
+        position: absolute;
+        top: 46px;
+        right: 28px;
+    }
+
 }
