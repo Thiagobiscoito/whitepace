@@ -29,7 +29,7 @@ h3{
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 40px 5%;
+    padding: 0 5%;
 }
 
 /* ESTILIZAÇÃO DOS BOTOES */
@@ -278,6 +278,9 @@ nav .close-icon{
 
 /* ESTILOS DA PAGINA SOBRE */
 
+.sobre{
+    padding: 40px 0;
+}
 .sobre .container{
     display: flex;
     align-items: center;
@@ -306,8 +309,11 @@ nav .close-icon{
 /* FIM DOS ESTILOS DA PAGINA SOBRE */
 
 /* ESTILOS DA PAGINA SERVIÇOS */
+.servicos{
+    padding: 40px 0;
+}
 .servicos h3{
-    text-align: center;
+    text-align: center;   
 }
 
 .servicos .container > p{
@@ -357,7 +363,38 @@ nav .close-icon{
 
 /* FIM DOS ESTILOS DA PAGINA SERVIÇOS */
 
+/* DADOS */
+.dados{
+    background: #d3e6fd;
+}
 
+.dados .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dados .dados-item{
+    text-align: center;
+    margin: 15px;
+    color: #000000be;
+}
+
+.dados .dados-item img{
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.dados .dados-item p{
+    font-size: 18px;
+}
+
+.dados .dados-item p strong{
+    font-size: 28px;
+}
 /* RESPONSIVIDADE DO MENU-MOBILE */
 
 @media(max-width: 830px){
