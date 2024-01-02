@@ -395,6 +395,7 @@ nav .close-icon{
 .dados .dados-item p strong{
     font-size: 28px;
 }
+
 /* RESPONSIVIDADE DO MENU-MOBILE */
 
 @media(max-width: 830px){
